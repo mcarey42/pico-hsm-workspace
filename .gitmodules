@@ -1,0 +1,15 @@
+[submodule "pico-hsm"]
+	path = pico-hsm
+	url = git@github.com:mcarey42/pico-hsm.git
+[submodule "py-picohsm"]
+	path = py-picohsm
+	url = git@github.com:mcarey42/py-picohsm.git
+[submodule "pypicokey"]
+	path = pypicokey
+	url = git@github.com:mcarey42/pypicokey.git
+[submodule "pico-sdk"]
+	path = pico-sdk
+	url = https://github.com/raspberrypi/pico-sdk.git
+[submodule "picotool"]
+	path = picotool
+	url = https://github.com/raspberrypi/picotool.git
