@@ -32,6 +32,10 @@ git submodules so the full toolchain can be cloned and set up from a single plac
 git clone git@github.com:mcarey42/pico-hsm-workspace.git ~/Projects/pico-hsm-workspace
 cd ~/Projects/pico-hsm-workspace
 git submodule update --init --recursive
+# These are needed to talk to the device once provisioned.
+sudo apt install pcscd pcsc-tools
+# Needed to tell the build where the pick-sdk lives.
+export PICO_SDK_PATH=~/Projects/pico-hsm-workspace/pico-sdk/
 ```
 
 ### 2. Build and install picotool
